@@ -1,0 +1,7 @@
+v 4
+file . "pl_xor_tb.vhdl" "30e4886c2c44c32b6aeb48db78b2f24a963c6225" "20240814173730.340":
+  entity pl_xor_tb at 1( 0) + 0 on 13;
+  architecture tb of pl_xor_tb at 5( 58) + 0 on 14;
+file . "pl_xor.vhdl" "5d8af59c8c432277895b767cbacf9cbaf4f003b2" "20240814173727.661":
+  entity pl_xor at 2( 12) + 0 on 11;
+  architecture comportamento of pl_xor at 11( 138) + 0 on 12;

@@ -1,0 +1,7 @@
+v 4
+file . "pl_nor_tb.vhdl" "2c9239098bdd36f4fecc553901c480ee085f3cca" "20240814173436.312":
+  entity pl_nor_tb at 1( 0) + 0 on 13;
+  architecture tb of pl_nor_tb at 5( 58) + 0 on 14;
+file . "pl_nor.vhdl" "2100626f46f9cebdcb0c7827994f66803fc7ec0f" "20240814173433.395":
+  entity pl_nor at 2( 12) + 0 on 11;
+  architecture comportamento of pl_nor at 11( 138) + 0 on 12;

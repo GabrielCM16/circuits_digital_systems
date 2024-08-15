@@ -1,0 +1,7 @@
+v 4
+file . "pl_and_tb.vhdl" "c95d83e48dd6030adb722bcc39e08351fa8b6ce9" "20240814180130.155":
+  entity pl_and_tb at 1( 0) + 0 on 13;
+  architecture tb of pl_and_tb at 5( 60) + 0 on 14;
+file . "pl_and.vhdl" "fe1f6b9d47d13c43927fd2997e795f00ec0054aa" "20240814180130.151":
+  entity pl_and at 3( 89) + 0 on 11;
+  architecture comportamento of pl_and at 15( 299) + 0 on 12;

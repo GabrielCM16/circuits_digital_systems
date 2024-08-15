@@ -1,0 +1,13 @@
+v 4
+file . "pl_and_tb.vhdl" "b917d9e1cb9d0b49ee0ce86465f1005f83f67b65" "20240814172141.370":
+  entity pl_and_tb at 1( 0) + 0 on 37;
+  architecture tb of pl_and_tb at 5( 60) + 0 on 38;
+file . "pl_or_2_tb.vhdl" "483383d993b5cd54ec48e528bf3c218f8725fde1" "20240814170927.890":
+  entity pl_or_2_tb at 1( 0) + 0 on 25;
+  architecture tb of pl_or_2_tb at 5( 59) + 0 on 26;
+file . "pl_or_2.vhdl" "eccea27185017b424469503303ded7720d2015b7" "20240814170921.175":
+  entity pl_or_2 at 3( 89) + 0 on 23;
+  architecture comportamento of pl_or_2 at 13( 235) + 0 on 24;
+file . "pl_and.vhdl" "7d66fb33d91c4f962ebcf19681ddf29ab3f35e64" "20240814172135.626":
+  entity pl_and at 3( 89) + 0 on 35;
+  architecture comportamento of pl_and at 13( 257) + 0 on 36;

@@ -1,0 +1,7 @@
+v 4
+file . "pl_xnor_tb.vhdl" "8a7d7441f473e97d30c3748a8805b2e670209457" "20240814173902.485":
+  entity pl_xnor_tb at 1( 0) + 0 on 13;
+  architecture tb of pl_xnor_tb at 5( 60) + 0 on 14;
+file . "pl_xnor.vhdl" "42924eb0cfaca16f05d2b320afdd97f9bd377a67" "20240814173858.875":
+  entity pl_xnor at 2( 12) + 0 on 11;
+  architecture comportamento of pl_xnor at 11( 140) + 0 on 12;
