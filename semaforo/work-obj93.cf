@@ -1,0 +1,7 @@
+v 4
+file . "semaforo.vhdl" "6bd9a30d9a89c7f90b9328c82de99c835badbb2a" "20240828190108.248":
+  entity semaforo at 1( 0) + 0 on 13;
+  architecture comportamento of semaforo at 12( 166) + 0 on 14;
+file . "semaforo_tb.vhdl" "4c78ad312732846c209a18715260b4019fa0615b" "20240828190108.247":
+  entity semaforo_tb at 1( 0) + 0 on 11;
+  architecture tb of semaforo_tb at 5( 41) + 0 on 12;

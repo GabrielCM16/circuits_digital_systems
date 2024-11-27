@@ -1,0 +1,7 @@
+v 4
+file . "ffjk.vhdl" "6e2e9cc07313f92381f593683c6acf708eb724e3" "20241123001404.460":
+  entity ffjk at 1( 0) + 0 on 27;
+  architecture ff of ffjk at 13( 207) + 0 on 28;
+file . "tb_ffjk.vhdl" "5d3aa6960224581a6317d50f336f9bc0ae640ccb" "20241123001404.460":
+  entity tb_ffjk at 1( 0) + 0 on 29;
+  architecture test of tb_ffjk at 8( 94) + 0 on 30;

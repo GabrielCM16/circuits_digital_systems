@@ -1,0 +1,7 @@
+v 4
+file . "tb1bit.vhdl" "331d44a51b9060fe2ec4925a6963d4e566ccfc60" "20240925184728.807":
+  entity tb_1bit at 1( 0) + 0 on 13;
+  architecture test of tb_1bit at 7( 82) + 0 on 14;
+file . "somador1bit.vhdl" "6aa956ec58178301fc0df0c8e96800d1bf3a34d6" "20240925184728.806":
+  entity somador1bit at 1( 0) + 0 on 11;
+  architecture comportamento of somador1bit at 14( 249) + 0 on 12;

@@ -1,0 +1,7 @@
+v 4
+file . "tb_fft.vhdl" "340d3d85fef253d1020326ae2fe08bb6e8b70274" "20241123000917.188":
+  entity tb_fft at 1( 0) + 0 on 19;
+  architecture test of tb_fft at 8( 75) + 0 on 20;
+file . "fft.vhdl" "6fb4e90d237ccd3d2769fd858ef8b3eba0cd26f9" "20241123000917.187":
+  entity fft at 1( 0) + 0 on 17;
+  architecture behavior of fft at 13( 291) + 0 on 18;

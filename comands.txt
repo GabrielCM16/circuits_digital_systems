@@ -1,0 +1,30 @@
+ghdl --clean:
+
+Este comando limpa todos os arquivos temporários gerados pelo GHDL durante a compilação e simulação. É útil para garantir que não haja resíduos de simulações anteriores que possam afetar o novo processo.
+
+
+
+
+ghdl -a *.vhdl:
+
+O -a (ou --analyze) é usado para analisar arquivos VHDL. O *.vhdl indica que todos os arquivos com a extensão .vhdl no diretório atual devem ser analisados. Esse passo é essencial para compilar a descrição do circuito antes da simulação.
+
+
+
+
+
+ghdl -r tb_porta_2in --wave=tb_porta_2in.ghw --stop-time=40ns:
+
+O -r (ou --run) executa uma simulação com base em uma entidade de teste especificada (neste caso, tb_porta_2in).
+O parâmetro --wave=tb_porta_2in.ghw instrui o GHDL a gerar um arquivo de ondas (.ghw) que pode ser visualizado posteriormente. Este arquivo contém as formas de onda dos sinais durante a simulação.
+O --stop-time=40ns define que a simulação deve parar após 40 nanosegundos.
+
+
+
+
+
+gtkwave -f solConfig.gtkw &:
+
+O comando gtkwave inicia o GTKWave, que é uma ferramenta gráfica para visualizar formas de onda de simulações.
+O -f solConfig.gtkw carrega uma configuração de visualização predefinida a partir do arquivo solConfig.gtkw. Este arquivo contém informações sobre quais sinais exibir e como organizá-los na interface gráfica.
+O & no final do comando é usado para executar o GTKWave em segundo plano, permitindo que o terminal permaneça disponível para outros comandos.

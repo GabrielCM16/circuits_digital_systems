@@ -1,0 +1,10 @@
+v 4
+file . "tb4bits.vhdl" "75618e7162d94bf803509f4e1cb9e66e892d25c1" "20241009171012.466":
+  entity tb_4bits at 1( 0) + 0 on 19;
+  architecture test of tb_4bits at 7( 78) + 0 on 20;
+file . "somador4bits.vhdl" "ca5423c00b54dbb58ad3a5e8fdad8c76ee7cccfa" "20241009170945.071":
+  entity somador4bits at 1( 0) + 0 on 17;
+  architecture comportamento of somador4bits at 14( 280) + 0 on 18;
+file . "somador1bit.vhdl" "6aa956ec58178301fc0df0c8e96800d1bf3a34d6" "20240925192003.253":
+  entity somador1bit at 1( 0) + 0 on 11;
+  architecture comportamento of somador1bit at 14( 249) + 0 on 12;
