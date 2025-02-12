@@ -1,0 +1,13 @@
+v 4
+file . "flipflop.vhdl" "fe4a1eaf30b0b38a66e30052bcf80901f78cc1cc" "20241223013904.610":
+  entity ffjk at 1( 0) + 0 on 95;
+  architecture ff of ffjk at 13( 226) + 0 on 96;
+file . "controle.vhdl" "9e8c0e8578d86e9dc5addac9c304d9280a64f8a7" "20241223013904.610":
+  entity controle at 1( 0) + 0 on 93;
+  architecture logica_controle of controle at 11( 260) + 0 on 94;
+file . "contador.vhdl" "6859f67a20d8c08a8619016d0a24da8ae3ed8df6" "20241223013904.610":
+  entity contador at 1( 0) + 0 on 91;
+  architecture contamento of contador at 15( 424) + 0 on 92;
+file . "tbcontador.vhdl" "81cb452b934d00464ca02504f2c060c91a92d13e" "20241223013910.943":
+  entity tb_contador at 1( 0) + 0 on 99;
+  architecture testamento of tb_contador at 7( 91) + 0 on 100;
